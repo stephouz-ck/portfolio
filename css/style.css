@@ -7,6 +7,7 @@ body, html {
 	width: 100% !important;
 	height: 100% !important;
 }
+
 h1 {
 	color: #333;
 	font-size: 64px;
@@ -15,6 +16,7 @@ h1 {
 	text-transform: uppercase;
 	margin-bottom: 10px;
 }
+
 h2 {
 	margin: 0 0 20px 0;
 	font-weight: 700;
@@ -22,47 +24,57 @@ h2 {
 	color: #333;
 	text-transform: uppercase;
 }
+
 h3 {
 	font-size: 18px;
 	text-transform: uppercase;
 	margin-bottom: 20px;
 }
+
 h4 {
 	font-size: 14px;
 	letter-spacing: 1px;
 	margin-bottom: 20px;
 	text-transform: uppercase;
 }
+
 h5 {
 	text-transform: uppercase;
 	font-weight: 700;
 	line-height: 20px;
 }
+
 p {
 	font-family: 'Roboto Mono', monospace;
 	font-size: 15px;
 	font-weight: 400;
 	color: #888;
 }
+
 p.intro {
 	margin: 12px 0 0;
 	line-height: 24px;
 }
+
 a {
 	color: #222;
 }
+
 a:hover, a:focus {
 	text-decoration: none;
 	color: #000;
 }
+
 ul, ol {
 	list-style: none;
 }
+
 ul, ol {
 	padding: 0;
 	webkit-padding: 0;
 	moz-padding: 0;
 }
+
 hr {
 	height: 6px;
 	width: 70px;
@@ -72,19 +84,23 @@ hr {
 	margin-left: 0;
 	border: 0;
 }
+
 .btn:active, .btn.active {
 	background-image: none;
 	outline: 0;
 	-webkit-box-shadow: none;
 	box-shadow: none;
 }
+
 a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus {
 	outline: none;
 	outline-offset: none;
 }
+
 .section-title {
 	margin-bottom: 50px;
 }
+
 .btn-custom {
 	font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
@@ -99,10 +115,12 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	margin-right: 30px;
 	transition: all 0.5s;
 }
+
 .btn-custom:hover, .btn-custom:focus, .btn-custom.focus, .btn-custom:active, .btn-custom.active {
 	color: #eee;
 	background-color: #444;
 }
+
 /* Header Section */
 .intro {
 	display: table;
@@ -116,6 +134,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	background-size: cover;
 	-o-background-size: cover;
 }
+
 .intro .overlay {
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,d5dade+100&0.5+0,0+100 */
 	background: -moz-linear-gradient(left, rgba(255,255,255,0.5) 0%, rgba(213,218,222,0) 100%); /* FF3.6-15 */
@@ -123,20 +142,38 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	background: linear-gradient(to right, rgba(255,255,255,0.5) 0%, rgba(213,218,222,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80ffffff', endColorstr='#00d5dade', GradientType=1 ); /* IE6-9 */
 }
+
 .intro .fa {
 	font-size: 94px;
 	margin-bottom: 40px;
 	color: #fff;
 }
+
 .intro p {
 	color: #444;
 	margin: 10px 0 20px 0;
 	font-size: 22px;
 }
+
 header .intro-text {
 	padding-top: 250px;
 	padding-bottom: 200px;
 }
+
+/* Competences Section */
+.d-flex {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.competences-title h3 {
+	font-size: 2rem;
+}
+
+.competences-title, .competences-body {
+	text-align: center;
+}
+
 /* Portfolio Section */
 #portfolio {
 	padding: 40px 0 100px 0;
