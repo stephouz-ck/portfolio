@@ -46,12 +46,13 @@ h5 {
 
 p, li {
 	font-family: 'Roboto Mono', monospace;
-	font-size: 15px;
-	font-weight: 600;
+	font-weight: 500;
 	color: #888;
 }
 
 p.intro {
+	font-size: 1.5rem;
+	font-weight: 500;
 	margin: 12px 0 0;
 	line-height: 24px;
 }
@@ -127,7 +128,6 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	width: 100%;
 	padding: 0;
 	margin-bottom: 80px;
-	background: url(../img/header-bg.jpg) no-repeat right top;
 	background-color: #e5e5e5;
 	background-position: center;
 	-webkit-background-size: cover;
