@@ -33,6 +33,7 @@ h3 {
 
 h4 {
 	font-size: 14px;
+	font-weight: 2rem;
 	letter-spacing: 1px;
 	margin-bottom: 20px;
 	text-transform: uppercase;
@@ -86,6 +87,7 @@ hr {
 	border: 0;
 }
 
+
 .btn:active, .btn.active {
 	background-image: none;
 	outline: 0;
@@ -122,13 +124,21 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	background-color: #444;
 }
 
+.card-link {
+	color: #666;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 0.95rem;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
 /* Header Section */
 .intro {
 	display: table;
 	width: 100%;
 	padding: 0;
 	margin-bottom: 80px;
-	background-color: #e5e5e5;
+	background-image: url("../img/portfolio/header-bg.png");
 	background-position: center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -161,9 +171,25 @@ header .intro-text {
 	padding-bottom: 200px;
 }
 
+.about {
+	padding: 100px 0 100px 0;
+}
+
+.about-img {
+	width: 50%;
+}
+
+.competences, .about, .exp-pro {
+	background-color: #f6f6f6;
+}
+
 /* Formations */
-.formation-icon {
-	font-size: 6rem;
+.formation-img {
+	width: 75%;
+}
+
+.formation-logo {
+	width: 60%;
 }
 
 /* Experiences Section */
@@ -176,16 +202,8 @@ header .intro-text {
 }
 
 /* Competences */
-/* .competences {
-	background-image: url("../img/portfolio/illustration-bro.png");
-	background-position: right;
-	background-size: contain;
-	background-repeat: no-repeat;
-	padding-bottom: 100px;
-} */
-
 .illustration img {
-	margin-top: -100px;
+	margin-top: -125px;
 	max-width: 100%;
 }
 
@@ -194,8 +212,8 @@ header .intro-text {
 }
 
 /* Portfolio Section */
-#portfolio {
-	padding: 40px 0 100px 0;
+#portfolio, #formations, #competences, #exp-pro {
+	padding: 50px 0 50px 0;
 }
 
 /* Footer Section*/
