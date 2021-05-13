@@ -4,6 +4,7 @@ body, html {
 	-webkit-font-smoothing: antialiased !important;
 	color: #555;
 	font-weight: 400;
+	scroll-behavior: smooth;
 	width: 100% !important;
 	height: 100% !important;
 }
@@ -46,9 +47,10 @@ h5 {
 }
 
 p, li {
-	font-family: 'Roboto Mono', monospace;
-	font-weight: 500;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
 	color: #888;
+	letter-spacing: 1.5px;
 }
 
 p.intro {
@@ -101,6 +103,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 
 .section-title {
+	margin: 40px 0 40px 0;
 	padding: 50px 0 50px 0;
 }
 
@@ -138,7 +141,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	width: 100%;
 	padding: 0;
 	margin-bottom: 80px;
-	background-image: url("../img/portfolio/header-bg.png");
+	background-image: url("../img/header-bg.png");
 	background-position: center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -176,7 +179,11 @@ header .intro-text {
 }
 
 .about-img {
-	width: 50%;
+	width: 60%;
+}
+
+.about-btns {
+	padding: 20px 0 0 35px;
 }
 
 .competences, .about, .exp-pro {
@@ -203,7 +210,7 @@ header .intro-text {
 
 /* Competences */
 .illustration img {
-	margin-top: -125px;
+	margin-top: -135px;
 	max-width: 100%;
 }
 
@@ -211,9 +218,35 @@ header .intro-text {
 	font-size: 1.5rem;
 }
 
+/* Color Decoration */
+.color-deco {
+	height: 20px;
+	opacity: 0.5;
+	margin-bottom: -155px;
+	margin-top: 50px;
+	width: 40%;
+}
+
+.color-deco-edu {
+	background-color: #CE8283;
+}
+
+.color-deco-comp {
+	background-color: #A57492;
+}
+
+.color-deco-portfolio {
+	background-color: #275E72;
+}
+
+.color-deco-exp {
+	background-color: #351C58;
+}
+
+
 /* Portfolio Section */
 #portfolio, #formations, #competences, #exp-pro {
-	padding: 50px 0 50px 0;
+	padding: 100px 0 100px 0;
 }
 
 /* Footer Section*/
