@@ -127,20 +127,11 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	background-color: #444;
 }
 
-.card-link {
-	color: #666;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 0.95rem;
-	letter-spacing: 1px;
-	text-transform: uppercase;
-}
-
 /* Header Section */
 .intro {
 	display: table;
 	width: 100%;
 	padding: 0;
-	margin-bottom: 80px;
 	background-image: url("../img/header-bg.png");
 	background-position: center;
 	-webkit-background-size: cover;
@@ -175,7 +166,7 @@ header .intro-text {
 }
 
 .about {
-	padding: 100px 0 100px 0;
+	padding-top: 100px;
 }
 
 .about-img {
@@ -190,6 +181,35 @@ header .intro-text {
 	background-color: #f6f6f6;
 }
 
+/* portfolio */
+.card-overlay {
+	height: 70%;
+	position: relative;
+	width: 100%;
+}
+
+.overlay-text {
+	background-color: rgba(255, 255, 255, 0.80);
+	height: 100%;
+	opacity: 0;
+	position: absolute;
+  top: 50%;
+  left: 50%;
+	text-align: center;
+	transform: translate(-50%, -50%);
+	transition: all .75s ease;
+	width: 100%;
+}
+
+.card .overlay-text:hover {
+	opacity: 1;
+}
+
+.btn-portfolio {
+	margin-left: 7%;
+	margin-top: 25%;
+}
+
 /* Formations */
 .formation-img {
 	width: 75%;
@@ -197,11 +217,6 @@ header .intro-text {
 
 .formation-logo {
 	width: 60%;
-}
-
-/* Experiences Section */
-.exp-pro {
-	padding-bottom: 50px;
 }
 
 .invisible {
@@ -243,8 +258,7 @@ header .intro-text {
 	background-color: #351C58;
 }
 
-
-/* Portfolio Section */
+/* Sections */
 #portfolio, #formations, #competences, #exp-pro {
 	padding: 100px 0 100px 0;
 }
