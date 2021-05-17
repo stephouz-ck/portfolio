@@ -170,6 +170,9 @@ header .intro-text {
 }
 
 .about-img {
+	border: 1px solid #888;
+	border-radius: 2px;
+	box-shadow: 12px 12px 0 1px #9B7295;
 	width: 60%;
 }
 
