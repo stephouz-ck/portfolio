@@ -1,4 +1,5 @@
 body, html {
+	background-color: #fefcfc;
 	font-family: 'Montserrat', sans-serif;
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
@@ -47,7 +48,7 @@ h5 {
 }
 
 p, li {
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Noto Serif JP', serif;
 	font-weight: 400;
 	color: #888;
 	letter-spacing: 1.5px;
@@ -78,17 +79,6 @@ ul, ol {
 	webkit-padding: 0;
 	moz-padding: 0;
 }
-
-hr {
-	height: 6px;
-	width: 70px;
-	position: relative;
-	background: #444;
-	margin-bottom: 20px;
-	margin-left: 0;
-	border: 0;
-}
-
 
 .btn:active, .btn.active {
 	background-image: none;
@@ -148,12 +138,6 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80ffffff', endColorstr='#00d5dade', GradientType=1 ); /* IE6-9 */
 }
 
-.intro .fa {
-	font-size: 94px;
-	margin-bottom: 40px;
-	color: #fff;
-}
-
 .intro p {
 	color: #444;
 	margin: 10px 0 20px 0;
@@ -162,15 +146,20 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80ffffff', e
 
 header .intro-text {
 	padding-top: 250px;
-	padding-bottom: 200px;
+	padding-bottom: 250px;
 }
 
-.about {
-	padding-top: 100px;
+.conclusion {
+	padding: 25px 0 25px 0;
+}
+
+.navbar {
+	position: fixed;
+	transition: 500ms;
 }
 
 .about-img {
-	border: 1px solid #888;
+	border: 2px solid #888;
 	border-radius: 2px;
 	box-shadow: 12px 12px 0 1px #9B7295;
 	width: 60%;
@@ -182,6 +171,32 @@ header .intro-text {
 
 .competences, .about, .exp-pro {
 	background-color: #f6f6f6;
+}
+
+.edu-title {
+	font-weight: 600;
+}
+
+/* LINE DECORATION */
+.deco {
+	margin-bottom: 75px;
+	margin-top: 20px;
+}
+
+.deco-top {
+	margin-bottom: 100px;
+	margin-top: 100px;
+}
+
+.deco-bottom {
+	margin-bottom: 100px;
+	margin-top: 100px;
+}
+
+.deco, .deco-top, .deco-bottom {
+	background-color: #888;
+	height: 2px;
+	width: 35%;
 }
 
 /* portfolio */
@@ -210,16 +225,12 @@ header .intro-text {
 
 .btn-portfolio {
 	margin-left: 7%;
-	margin-top: 25%;
+	margin-top: 23%;
 }
 
 /* Formations */
-.formation-img {
-	width: 75%;
-}
-
 .formation-logo {
-	width: 60%;
+	width: 50%;
 }
 
 .invisible {
@@ -235,6 +246,11 @@ header .intro-text {
 .comp i {
 	font-size: 1.5rem;
 }
+
+/* experiences */
+/* .card-exp {
+	box-shadow: 12px 12px 0 1px #351C58;
+} */
 
 /* Color Decoration */
 .color-deco {
@@ -261,8 +277,13 @@ header .intro-text {
 	background-color: #351C58;
 }
 
+/* experiences */
+.exp-img {
+	width: 100%;
+}
+
 /* Sections */
-#portfolio, #formations, #competences, #exp-pro {
+#portfolio, #formations, #competences, #exp-pro, #conclusion {
 	padding: 100px 0 100px 0;
 }
 
@@ -271,7 +292,10 @@ header .intro-text {
 	background: #262626;
 	padding: 50px 0 20px 0;
 }
-#footer p {
+#footer p, #footer a {
 	font-size: 15px;
 	color: #666;
+}
+#footer a:hover {
+	color: #000;
 }
