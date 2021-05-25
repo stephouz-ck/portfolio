@@ -179,24 +179,15 @@ header .intro-text {
 
 /* LINE DECORATION */
 .deco {
-	margin-bottom: 75px;
-	margin-top: 20px;
-}
-
-.deco-top {
-	margin-bottom: 100px;
-	margin-top: 100px;
-}
-
-.deco-bottom {
-	margin-bottom: 100px;
-	margin-top: 100px;
-}
-
-.deco, .deco-top, .deco-bottom {
 	background-color: #888;
 	height: 2px;
+	margin-bottom: 100px;
+	margin-top: 100px;
 	width: 35%;
+}
+
+.deco-comp {
+	margin-top: 20px;
 }
 
 /* portfolio */
@@ -247,10 +238,13 @@ header .intro-text {
 	font-size: 1.5rem;
 }
 
-/* experiences */
-/* .card-exp {
-	box-shadow: 12px 12px 0 1px #351C58;
-} */
+.soft-skills-title {
+	padding-top: 100px;
+}
+
+.soft-skills {
+	margin-bottom: 50px;
+}
 
 /* Color Decoration */
 .color-deco {
