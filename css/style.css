@@ -48,7 +48,7 @@ h5 {
 }
 
 p, li {
-	font-family: 'Noto Serif JP', serif;
+	font-family: 'Lora', serif;
 	font-weight: 400;
 	color: #888;
 	letter-spacing: 1.5px;
@@ -158,6 +158,10 @@ header .intro-text {
 	transition: 500ms;
 }
 
+.nav-link {
+	font-weight: 500;
+}
+
 .about-img {
 	border: 2px solid #888;
 	border-radius: 2px;
@@ -173,8 +177,12 @@ header .intro-text {
 	background-color: #f6f6f6;
 }
 
+.edu {
+	margin-top: 70px;
+}
+
 .edu-title {
-	font-weight: 600;
+	font-weight: 700;
 }
 
 /* LINE DECORATION */
