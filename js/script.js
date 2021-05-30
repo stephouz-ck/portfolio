@@ -8,6 +8,6 @@ function scrollFunction() {
   if (document.body.scrollTop > 520 || document.documentElement.scrollTop > 520) {
     navbar.style.background = "#f1f1f1";
   } else {
-    navbar.style.background = "none";
+    navbar.style.background = "rgba(255, 255, 255, 0.25)";
   }
 }
