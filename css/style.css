@@ -229,6 +229,11 @@ header .intro-text {
 	margin-top: 23%;
 }
 
+.btn-aeos {
+	margin-left: 3%;
+	margin-top: 14%; 
+}
+
 /* Formations */
 .formation-logo {
 	width: 50%;
